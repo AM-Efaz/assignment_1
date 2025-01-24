@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+body{
+    width: 100vw;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100vw;
+    height: 100px;
+    margin: 0;
+    background: white;
+}
+.h-title{
+    font-size: 30px;
+    margin: 30px 0 0 50px;
+}
+.h-title, .sign-in{
+    float: left;
+}
+.sign-in{
+    height: 52px;
+    width: 116px;
+    border-radius: 8px;
+    border: 2px solid rgb(0, 105, 74);
+    color: rgb(0, 105, 74);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 24px 0 0 calc(80vw - 116px);
+}
+button{
+    outline: none;
+}
+.ban{
+    width: 80vw;
+    height: 35vw;
+    background: rgb(198, 228, 214);
+    border-radius: 1vw;
+    margin: 20px 0 0 10vw;
+}
+.ban-text{
+    width: 45%;
+    padding: 180px 0 0px 100px;
+}
+.ban-p{
+    font-size: 20px;
+    color: gray;
+}
+.ban-h1{
+    font-size: 3vw;
+}
+.hero{
+    height: 28vw;
+    margin: 3.5vw 0 0 0;
+}
+.ban-text, .hero{
+    float: left;
+}
+.ebd{
+    background: rgb(0, 105, 74);
+    width: 270px;
+    height: 56px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    margin: 30px 0 0 0;
+}
+.pillar{
+    width: 80vw;
+    border: 2px solid black;
+    margin: 20px 0 0 10vw;
+}
