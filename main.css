@@ -69,8 +69,8 @@ button{
     margin: 30px 0 0 0;
 }
 .pillar{
-    width: 80vw;
+    width: 1600px;
+    height: 300px;
     border: 2px solid black;
-    margin: 20px 0 0 10vw;
-    height: 15vw;
+    margin: 100px 0 0 calc(50vw - 800px);
 }
