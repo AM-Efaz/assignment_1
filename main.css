@@ -69,8 +69,37 @@ button{
     margin: 30px 0 0 0;
 }
 .pillar{
-    width: 1600px;
-    height: 300px;
+    width: 80vw;
+    height: 20vw;
+    margin: 100px 0 0 10vw;
+}
+.pillar-title{
+    font-size: 40px;
+    margin: 0 0 40px 0;
+}
+.pillar-c{
+    height: 15vw;
+    width: 19vw;
+    border: 2px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    float: left;
+}
+.p-c-m{
+    margin: 0 calc(1.19vw - 4px) 0 0;
+}
+.p-c-i{
+    margin: 1vw 0 0 1vw;
+}
+.p-c-t{
+    font-size: 20px;
+    margin: 1vw 0 0 1vw;
+}
+.p-c-p{
+    margin: 0 1vw 0 1vw;
+    color: gray;
+    font-size: 15px;
+}
+.vision{
+    width: 80vw;
     border: 2px solid black;
-    margin: 100px 0 0 calc(50vw - 800px);
 }
