@@ -101,12 +101,38 @@ button{
 }
 .vision{
     border: 2px solid black;
+    width: 80vw;
+    height: 30vw;
+    margin: 0 0 0 10vw;
 }
-.vision-c{
+.vision-title{
+    font-size: 40px;
+}
+.vision-p{
+    color: rgb(68, 68, 68);
+    font-size: 17px;
+    margin: 0 0 30px 0;
+}
+.v-c{
     width: 26vw;
-    height: 18vw;
-    border: 2px solid black;
+    height: 20vw;
     float: left;
+    border-radius: 16px;
+}
+.v-c-m{
+    margin: 0 1vw 0 0;
+}
+.vc1{
+    background: rgba(84, 144, 245, 0.3);
+}
+.vc2{
+    background: rgb(198, 228, 214);
+}
+.vc3{
+    background: rgb(247, 235, 207);
+}
+.p-c-i2{
+    margin: 2vw 0 0 2vw;
 }
 .yunus-speech{
     background: url("quote-bg.png") no-repeat;
