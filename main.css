@@ -100,16 +100,15 @@ button{
     font-size: 15px;
 }
 .vision{
-    border: 2px solid black;
     width: 80vw;
     height: 30vw;
-    margin: 0 0 0 10vw;
+    margin: 100px 0 0 10vw;
 }
 .vision-title{
     font-size: 40px;
 }
 .vision-p{
-    color: rgb(68, 68, 68);
+    color: gray;
     font-size: 17px;
     margin: 0 0 30px 0;
 }
@@ -137,6 +136,33 @@ button{
 .v-c-t{
     font-size: 20px;
     margin: 20px 0 0 2vw;
+}
+.v-c-p{
+    color: gray;
+    margin: 0px 2vw 0 2vw;
+    font-size: 16px;
+}
+.v-c-a1{
+    height: 15vw;
+}
+.lm{
+    height: 41px;
+    width: 122px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    margin: 0 0 0 2vw;
+    font-size: 15px;
+    font-weight: bold;
+}
+.lm1{
+    background: rgb(84, 144, 245);
+}
+.lm2{
+    background: rgb(9, 161, 92);
+}
+.lm3{
+    background: rgb(255, 194, 57);
 }
 .yunus-speech{
     background: url("quote-bg.png") no-repeat;
