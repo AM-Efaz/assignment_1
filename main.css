@@ -29,6 +29,11 @@ header{
     font-weight: 600;
     margin: 24px 0 0 calc(80vw - 116px);
 }
+.sign-in:hover{
+    color: white;
+    background: rgb(0, 105, 74);
+    transition: .5s ease-in-out;
+}
 button{
     outline: none;
 }
@@ -67,6 +72,10 @@ button{
     color: white;
     font-size: 20px;
     margin: 30px 0 0 0;
+}
+.ebd:hover{
+    background: rgba(0, 105, 74, .7);
+    transition: .5s ease-in-out;
 }
 .pillar{
     width: 80vw;
@@ -158,11 +167,23 @@ button{
 .lm1{
     background: rgb(84, 144, 245);
 }
+.lm1:hover{
+    background: rgba(84, 144, 245, 0.7);
+    transition: .5s ease-in-out;
+}
 .lm2{
     background: rgb(9, 161, 92);
 }
+.lm2:hover{
+    background: rgba(9, 161, 92, .7);
+    transition: .5s ease-in-out;
+}
 .lm3{
     background: rgb(255, 194, 57);
+}
+.lm3:hover{
+    background: rgba(255, 194, 57, .7);
+    transition: .5s ease-in-out;
 }
 .yunus-speech{
     background: url("quote-bg.png") no-repeat;
