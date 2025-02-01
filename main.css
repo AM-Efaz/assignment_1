@@ -209,3 +209,112 @@ button{
     margin: 0px 20px 0 20px;
     color: gray;
 }
+.donate{
+    width: 80vw;
+    text-align: center;
+    margin: 0 0 0 10vw;
+}
+.donate-title{
+    font-size: 40px;
+    margin: 0 0 10px 0;
+}
+.donate-p{
+    font-size: 17px;
+    color: rgb(68, 68, 68);
+    margin: 0 100px 20px 100px;
+}
+.amount-b{
+    width: 252px;
+    height: 128px;
+    border-radius: 16px;
+    border: 1px solid gray;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(68, 68, 68);
+    margin: 0 20px 0 0px;
+}
+.amount-b:hover{
+    color: black;
+    background: rgb(198, 228, 214);
+    transition: .5s ease-in-out;
+}
+.amount-b-a{
+    background: rgb(198, 228, 214);
+}
+#taka-in{
+    background: white;
+    color: gray;
+    border: 0;
+    border-bottom: 1px solid gray;
+    outline: none;
+    width: 64vw;
+    text-align: center;
+    height: 64px;
+    font-size: 20px;
+    margin: 20px 0 10px 0;
+}
+.done-now{
+    background: rgb(0, 105, 74);
+    color: white;
+    width: 151px;
+    height: 56px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin: 20px 0 0 0;
+    font-size: 20px;
+}
+.done-now:hover{
+    background: rgba(0, 105, 74, .8);
+    transition: .5s ease-in-out;
+}
+.snl{
+    background: rgb(198, 228, 214);
+    border-radius: 24px;
+    width: 80vw;
+    text-align: center;
+    margin: 80px 0 50px 10vw;
+    padding: 80px 0 80px 0;
+}
+.snl p{
+    color: rgb(68, 68, 68);
+    font-size: 16px;
+}
+.snl-form{
+    width: 750px;
+    height: 235px;
+    margin:  0px 0 0 calc(40vw - 375px);
+}
+.snl-title{
+    font-size: 40px;
+}
+.snl-p{
+    margin: 10px 50px 10px 50px;
+}
+.snl-p2{
+    margin: 80px 0 0 0;
+}
+#snl-in{
+    height: 54px;
+    width: 578px;
+    border: 0;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-size: 15px;
+    padding-left: 20px;
+    text-align: left;
+}
+.snl-sub{
+    margin: 0;
+    border: 0;
+    background: rgb(0, 105, 74);
+    color: white;
+    height: 56px;
+    width: 150px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 20px;
+}
+#snl-in, .snl-sub{
+    float: left;
+}
