@@ -209,10 +209,94 @@ button{
     margin: 0px 20px 0 20px;
     color: gray;
 }
+.news{
+    width: 80vw;
+    height: 580px;
+    margin: 0 0 0 10vw;
+    color: rgb(68, 68, 68);
+}
+.news p{
+    font-size: 17px;
+}
+.news-title{
+    font-size: 40px;
+    color: black;
+}
+.news-c1{
+    height: 306px;
+}
+.n-c1-s1{
+    float: left;
+    margin: 0 0 0 35px;
+}
+.n-c1-s2{
+    width: calc(80vw - 510px);
+    height: 276px;
+    float: right;
+    margin: 14px 35px 0 0px;
+}
+.n-c1-title{
+    font-size: 35px;
+}
+.al-jz{
+    float: left;
+    margin: 10px 100% 0 0;
+}
+.dt{
+    float: left;
+    white-space: pre;
+    margin: 20px 100% 0 0;
+}
+.n-c1-p{
+    font-size: 17px;
+    margin: 110px 0 0 0;
+}
+.rm{
+    margin: 20px 0 0 0;
+    border-radius: 8px;
+    height: 48px;
+    width: 139px;
+    border: 0;
+    background: rgb(0, 105, 74);
+    color: white;
+    font-size: 18px;
+}
+.rm:hover{
+    background: rgba(0, 105, 74, .8);
+    transition: .5s linear;
+}
+.news-c2{
+    width: 80vw;
+    height: 306px;
+    margin: 0 0 0 10vw;
+    color: rgb(68, 68, 68);
+}
+.n-c2-s1{
+    float: left;
+    width: calc(80vw - 510px);
+    height: 276px;
+    margin: 14px 0 0 35px;
+}
+.n-c2-s2{
+    float: right;
+    margin: 0 35px 0 0;
+}
+.al-jz{
+    float: left;
+    margin: 10px 100% 0 0;
+}
+.n-c2-title{
+    font-size: 35px;
+}
+.n-c2-p{
+    font-size: 17px;
+    margin: 110px 0 0 0;
+    font-size: 17px;
+}
 .donate{
     width: 80vw;
     text-align: center;
-    margin: 0 0 0 10vw;
+    margin: 100px 0 0 10vw;
 }
 .donate-title{
     font-size: 40px;
@@ -314,6 +398,11 @@ button{
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     font-size: 20px;
+}
+.snl-sub:hover{
+    background: rgba(0, 105, 74, .8);
+    color: white;
+    transition: .5s ease-in-out;
 }
 #snl-in, .snl-sub{
     float: left;
